@@ -209,19 +209,6 @@ This confirmed the host had booted into the updated Proxmox kernel.
 4. Install and update Ubuntu Server; configure SSH access.
 5. Explore additional Windows Server, Active Directory, DNS, SMB, and network services labs as resources allow.
 
-## Suggested screenshots for this repository
-
-Add **redacted** screenshots under an `images/` directory and link them in this README:
-
-- Proxmox graphical installer — management network configuration
-- First-boot console displaying the management URL
-- Proxmox dashboard with CPU, RAM, and storage
-- Repository settings with `pve-no-subscription` enabled
-- Successful package refresh (`TASK OK`)
-- Upgrade completion and post-reboot `uname -r` output
-
-**Do not upload** passwords, session tokens, personally identifying browser tabs, or other sensitive information. Consider whether to redact the local IP/hostname before publishing.
-
 ---
 
 **Project milestone:** A dedicated Proxmox VE host was installed, patched, rebooted, and verified for remote management. Virtual machine creation will be documented as a separate follow-on phase.
